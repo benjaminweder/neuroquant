@@ -1,7 +1,7 @@
-# Quokka
+# NeuroQuant
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Quokka is an ecosystem enabling the service-based execution of quantum algorithms, in particular [Variational Quantum Algorithms (VQAs)](https://www.nature.com/articles/s42254-021-00348-9).
+NeuroQuant is an ecosystem enabling the service-based execution of quantum algorithms, in particular [Variational Quantum Algorithms (VQAs)](https://www.nature.com/articles/s42254-021-00348-9).
 As VQAs are hybrid quantum algorithms comprising many classical and quantum tasks, a variety of services implementing these tasks are required.
 Thus, Quokka provides the following functionalities as services via a single Endpoint:
 1. [Quantum circuit generation](https://github.com/UST-QuAntiL/quantum-circuit-generator)
@@ -22,7 +22,7 @@ A video demonstrating the use of Quokka can be found on [YouTube](https://www.yo
 
 A comprehensive step-by-step tutorial can be found [here](#running-a-workflow-based-quantum-application).
 
-## Running Quokka
+## Running NeuroQuant
 
 The easiest way to get start with Quokka is using [Docker-Compose](https://docs.docker.com/compose/): 
 
@@ -45,7 +45,7 @@ Building a workflow-based quantum application is a multi-step process that start
 
 ### Setting up the Requisites:
 
-First, get the API gateway and all related services running by starting Quokka as described in [**Running Quokka**](#running-quokka)
+First, get the API gateway and all related services running by starting Quokka as described in [**Running NeuroQuant**](#running-NeuroQuant)
 
 Next, a modeling tool suitable for modeling workflow-based quantum applications is required.
 In this example, we use the [QuantME Modeling and Transformation Framework (QuantME MTF)](https://github.com/UST-QuAntiL/QuantME-TransformationFramework).
